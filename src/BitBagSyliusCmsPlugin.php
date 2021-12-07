@@ -27,6 +27,6 @@ final class BitBagSyliusCmsPlugin extends Bundle
 
         $container->addCompilerPass(new ImporterCompilerPass());
         $container->addCompilerPass(new MediaProviderPass());
-//        $container->addCompilerPass(new AuthenticationManagerPolyfillPass());
+        $container->addCompilerPass(new AuthenticationManagerPolyfillPass());
     }
 }
